@@ -52,7 +52,7 @@ class PoemLinkCrawler:
       if not os.path.exists(data_dir):
           os.makedirs(data_dir)
 
-      file_path = os.path.join(data_dir, "poems.json")
+      file_path = os.path.join(data_dir, "poems_links.json")
 
       # Nếu file đã tồn tại, đọc dữ liệu hiện có
       if os.path.exists(file_path):

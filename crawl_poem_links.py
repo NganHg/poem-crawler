@@ -7,7 +7,7 @@ import random
 def main():
     pl_crawler = PoemLinkCrawler(THIVIEN_URL)
     links = pl_crawler.crawl_poem_all()
-    print(links)
+    # print(links)
 
 if __name__ == "__main__":
     main()
