@@ -3,9 +3,7 @@ import json
 import time
 import random
 import requests
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor
-from src.utils import parse_author_data, parse_author_poems, get_proxies
+from src.utils import parse_author_data,  get_proxies
 from config.settings import headers_list
 
 proxies = get_proxies()

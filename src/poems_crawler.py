@@ -3,7 +3,6 @@ import os
 import time
 import random
 import json
-from concurrent.futures import ThreadPoolExecutor
 from src.utils import parse_poem_data, get_proxies
 from config.settings import headers_list
 

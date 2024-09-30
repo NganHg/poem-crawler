@@ -3,8 +3,6 @@ import json
 import time
 import random
 import requests
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor
 from src.utils import get_proxies, parse_author_poems
 from config.settings import headers_list
 
